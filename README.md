@@ -1,7 +1,5 @@
 # SantanderTech-FrontEnd
- Trilha de Front-End - Santander Tech+
-
----
+## Trilha de Front-End - Santander Tech+
 
 ### Módulo 01
 - [HTML]
