@@ -14,6 +14,7 @@
             <table border="1">
                 <thead>
                     <tr>
+                        <!-- th: Títulos principais da tabela -->
                         <th>Nome</th>
                         <th>E-mail</th>
                         <th>Matrícula</th>
@@ -41,12 +42,38 @@
 
                 </tbody>
             </table>
-
-
         </section>
 
         <section id="finance">
             <h2>Tabela de Controle Financeiro</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <!-- th: Títulos principais da tabela -->
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <!-- rowspan="2": Mescla 2 linhas da mesma coluna -->
+                        <td rowspan="2">03/12/2024</td>
+                        <!-- colspan="2": Mescla 2 colunas na mesma linha -->
+                        <td colspan="2">Despesa</td>
+                        <td>R$ 35,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Receita</td>
+                        <td>Salário</td>
+                        <td>R$ 3.768,00</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
     </main>
