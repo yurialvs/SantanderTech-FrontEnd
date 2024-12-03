@@ -1,8 +1,6 @@
 # SantanderTech-FrontEnd
  Trilha de Front-End - Santander Tech+
 
-### Organização da pastas
-
 ---
 
 ### Módulo 01
