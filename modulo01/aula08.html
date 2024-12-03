@@ -11,17 +11,134 @@
         <hr>
 
         <h2>Input</h2>
-        <form>
+        <form action="" method="get">
             <div>
-                <label for="texto">Input de Texto: </label>
-                <input type="text" id="texto">
+                <!-- for: linka o id "texto" -->
+                 <!-- type: tipo do input, id: identificação do input, placeholder: Info para preencher o campo, value: valor pré-definido dentro do campo -->
+                <label for="texto">Nome: </label>
+                <input type="text" id="texto" name="nome">
             </div> 
         </form>
         <br>
         
         <form>
-            <input type="">
+            <div>
+                <label for="senha">Senha: </label>
+                <input type="password" id="senha" name="senha" placeholder="Digite a senha">
+            </div>
         </form>
+        <br>
+
+        <form>
+            <div>
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" placeholder="nome@email.com">
+            </div>
+        </form>
+        <br>
+
+        <form>
+            <div>
+                <label for="data">Data de Nascimento: </label>
+                <input type="date" id="data" name="data">
+            </div>
+        </form>
+        <br>
+        
+        <form>
+            <div>
+                <label for="hora">Horário: </label>
+                <input type="time" id="hora" name="hora">
+            </div>
+        </form>
+        <br>
+
+        <form>
+            <div>
+                <label for="numero">Número: </label>
+                <input type="number" id="numero" name="numero" value="10">
+            </div>
+        </form>
+        <br>
+        
+        <form>
+            <div>
+                <label for="arquivo">Arquivo: </label>
+                <input type="file" id="arquivo" name="arquivo">
+            </div>
+        </form>
+        <br>
+
+        
+        <form>
+            <div>
+                <label for="url">url: </label>
+                <input type="url" id="url" name="url">
+            </div>
+        </form>
+        <br>
+
+                
+        <form>
+            <div>
+                <label for="cor">Cor: </label>
+                <input type="color" id="cor" name="cor">
+            </div>
+        </form>
+        <br>
+                
+        <form>
+            <div>
+                <label for="range">Range: </label>
+                <input type="range" id="range" name="range" value="50" min="0" max="200">
+            </div>
+        </form>
+        <br>
+                
+        <form>
+            <div>
+                <label for="checkbox">Checkbox: </label>
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <input type="checkbox" id="checkbox" name="checkbox">
+            </div>
+        </form>
+        <br>
+                
+        <form>
+            <div>
+                <label for="radio">Radio: </label>
+                <input type="radio" id="radio" name="radio">
+                <input type="radio" id="radio" name="radio">
+            </div>
+        </form>
+        <br>
+                        
+        <form>
+            <div>
+                <input type="reset" id="reset" name="reset" value="Limpar">
+            </div>
+        </form>
+        <br>
+
+        <form>
+            <div>
+                <input type="submit" id="submit" name="submit" value="Enviar">
+            </div>
+        </form>
+        <br>
+        
+        <h2>Text Area</h2>
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+        <h2>Select</h2>
+        <div>
+            <select name="select" id="select">
+                <option value="" disabled selected>Selecione uma das opções...</option>
+                <option value="receita">Receita</option>
+                <option value="despesa">Despesa</option>
+                <option value="transferencia">Transferência</option>
+            </select>
+        </div>
 
     </main>
 </body>
