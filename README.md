@@ -31,7 +31,7 @@
 #### Aula 09
 - Integração com CSS
 
----
+<hr>
 
 ### Módulo 02
 - [CSS]
