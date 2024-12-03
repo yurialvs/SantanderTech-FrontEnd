@@ -37,3 +37,6 @@
 
 #### Aula 01
 - Introdução ao CSS
+
+#### Aula 02
+- Cores, Background e Textos
