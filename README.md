@@ -3,6 +3,8 @@
 
 ## Organização da pastas
 ### Módulo 01
+- [HTML]
+
 #### Aula 01
 - Primeira página em HTML
 
@@ -29,3 +31,9 @@
 
 #### Aula 09
 - Integração com CSS
+
+### Módulo 02
+- [CSS]
+
+#### Aula 01
+- Introdução ao CSS
