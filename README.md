@@ -20,3 +20,6 @@
 
 #### Aula 06
 - Barra de Navegação
+
+#### Aula 07
+- Tabelas
