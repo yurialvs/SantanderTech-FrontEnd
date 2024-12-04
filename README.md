@@ -50,3 +50,6 @@
 
 #### Aula 05
 - Flexbox e Alinhamentos
+
+#### Aula 06
+- Seletores, Responsividade e Animações
