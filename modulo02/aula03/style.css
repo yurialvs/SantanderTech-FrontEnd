@@ -1,0 +1,44 @@
+@font-face {
+    /* Regra para importar fontes baixadas */
+    font-family: "FonteBaixada";
+    src: url("fontes/Silkscreen-Bold.ttf") format("truetype");
+}
+
+:root {
+    /**/
+    font-size: 50%;
+}
+
+h1 {
+    /* Fonte do sistema */
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+   font-size: 5rem;
+}
+
+h2 {
+    /* Fonte com link*/
+    font-family: "Hachi Maru Pop", cursive;
+    font-size: 3rem;
+}
+
+h3 {
+    /* Fonte baixada*/
+    font-family: 'FonteBaixada';
+    font-size: 2rem;
+
+}
+
+a {
+    font-size: 1.6rem;
+    color: rgb(40, 141, 141);
+}
+
+a:visited {
+    /* Ao visitar o link, será feito a modificação */
+    color: brown;
+}
+
+a:hover{
+    /* Ao passar o cursor no link, será feito a modificação */
+    color: rgb(28, 28, 112);
+}

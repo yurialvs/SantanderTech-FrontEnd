@@ -41,3 +41,9 @@
 
 #### Aula 02
 - Cores, Background e Textos
+
+#### Aula 03
+- Fontes, Medidas e Links
+
+#### Aula 04
+- Listas, Tabelas, Box Model e Display
