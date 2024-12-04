@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+
+ main {
+    /* padding: 7rem 0; */
+ }
+ 
+ :root {
+    font-size: 30%;
+ }
+
+.boxes {
+    height: calc(100vh);
+    position: relative;
+
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    /* align-items: center; */
+    justify-content: flex-start;
+    align-content: center;
+    gap: 2rem 5rem;
+}
+
+.box {
+    min-height: 10rem;
+    min-width: 20rem;
+    padding: 1.5rem;
+    border: 0.8rem solid rgb(8, 23, 90);
+    border-radius: 1rem;
+    background-color: rgb(7, 7, 196);
+    color: white;
+    font-size: 4rem;
+    display: flex;
+    order: 10;
+    /* flex-basis: calc(50% - 5rem); */
+    flex: 1;
+
+    /* text-align: center; */
+    display: flex;
+    gap: 0 2rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.box:nth-child(1) {
+    order: 1;
+}
+
+.box:nth-child(2) {
+    order: 2;
+    flex: 2;
+}
+
+.box:nth-child(7) {
+    order: 3;
+}
+
+.box p, button {
+    font-size: 4rem;
+}
+
+h1 {
+    font-size: 8rem;
+}
