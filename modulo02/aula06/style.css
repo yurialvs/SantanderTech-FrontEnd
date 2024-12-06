@@ -73,14 +73,16 @@ table {
 }
 
 [data-button="products"] {
-    background: steelblue;
+    background: rgb(29, 46, 59);
     color: #fff;
     border: none;
     font-size: 2.8rem;
     padding: 0.6rem 2.4rem;
     cursor: pointer;
+    margin: auto;
     width: 100%;
     text-decoration: none;
+    transition: background-color 1s ease-in-out;
 
     display: inline-block;
 
@@ -91,5 +93,42 @@ table {
 }
 
 [data-button="products"]:hover {
-    opacity: 0.5;
+    background-color: rgb(11, 163, 100);
+}
+
+a {
+    background: rgb(29, 46, 59);
+    color: #fff;
+    border: none;
+    font-size: 2.8rem;
+    padding: 0.6rem 2.4rem;
+    cursor: pointer;
+    margin: auto;
+    width: 100%;
+    text-decoration: none;
+    transition: background-color 1s ease-in-out;
+
+    display: inline-block; 
+}
+
+[data-teste="teste"]{
+    margin-top: 2rem;
+    background-color: rgb(11, 163, 100);
+    animation: pulse .9s infinite;
+    transform: scale(1);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.9);
+        opacity: .6;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }

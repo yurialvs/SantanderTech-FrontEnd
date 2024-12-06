@@ -53,3 +53,10 @@
 
 #### Aula 06
 - Seletores, Responsividade e Animações
+
+#### Aula 07
+- Grid Layout e Unidade "fr"
+
+#### Projeto
+- Compilando conceitos e criando um projeto (Parte I)
+- Compilando conceitos e criando um projeto (Parte II)
