@@ -64,7 +64,36 @@
 ---
 
 ### Módulo 03
-- [ ]
+- [Git e Versionamento]
 
 #### Aula 01
-- 
+- O que é Git?
+
+#### Aula 02
+- Instalando e configurando o Git
+
+#### Aula 03
+- Repositórios do Git
+
+#### Aula 04
+- Gravando mudanças no repositório
+
+#### Aula 05
+- Git diff e commit
+
+#### Aula 06
+- Git log e restore
+
+#### Aula 07
+- Repositórios remotos
+
+#### Aula 08
+- Github
+
+#### Aula 09
+- Git branch
+
+#### Aula 10
+- Merging branches
+
+---
