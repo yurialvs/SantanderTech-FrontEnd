@@ -1,0 +1,111 @@
+Aula 01 
+O que é Git?
+- Git é um sistema de versionamento de código, que guarda os registros de versão como snapshots (fotos) do estado do projeto, além da referência/caminho para essa foto.
+
+Git e suas operações locais
+- A maioria das operações feitas pelo Git são locais e por isso boa parte das operações são praticamente instantâneas devido à facilidade de acessar arquivos em seu próprio computador.
+
+Versionamento
+- Registro de mudanças em arquivos, que possibilita recuperação ou acesso a versões anteriores;
+- Desenvolvimento de código em colaboração com outros integrantes.
+
+Aula 02
+Download Git
+https://git-scm.com/downloads
+
+GitHub Desktop
+https://desktop.github.com/download/
+ 
+Prompt de comando 
+--git version
+Verifica se está instalado e emite a versão do git
+ 
+Extensão do vscode: GitLens
+ 
+No terminal do vscode , no caminho da pasta desejada:
+Define nome de usuário:
+git config --global user.name "Yuri"
+ 
+Define e-mail:
+git config --global user.email teste@teste.com.br
+ 
+Aula 03
+ 
+No prompt de comando, para entrar na pasta desejada:
+cd C:\caminho\da\pasta\desejada
+ 
+Clonar repositório na pasta: via prompt de comando:
+git clone (link HTTPS do repositório do github)
+ 
+Transformando pasta em repositório git (via terminal do vscode):
+Estando no caminho da pasta desejada:
+git init
+ 
+Aula 04
+ 
+Estados do git:
+Untracked, Unmodified, Modified, Staged
+ 
+No terminal do vscode:
+Verifica o status de modificação do arquivo:
+git status
+ 
+Adiciona as modificações para área de Staged:
+git add .\arquivo.txt
+ 
+Aula 05
+ 
+Vizualiza as modificações:
+git diff
+ 
+Vizualiza as modificações na área Staged:
+git diff --staged
+ 
+Para fazer commit:
+git commit -m "Descrição aqui"
+ 
+Aula 06
+ 
+Vizualizar o histórico dos commit's:
+git log
+ 
+Para remover uma modificação:
+git restore .\arquivo.txt
+ 
+Para remover uma modificação da área do staged:
+git restore --staged .\arquivo.txt
+ 
+Aula 07
+ 
+Para ver tudo em relação ao repositório remoto:
+git remote
+ 
+Envia todas alterações para o repositório remoto:
+git push origin master
+ 
+Pega todas modificações que estão no repositório local e passa para o repositório local:
+git pull
+ 
+Para verificar possíveis modificações:
+git fetch
+Após:
+git diff origin/master
+ 
+Aula 08
+ 
+GitHub
+ 
+O GitHub é uma plataforma online de hospedagem de código-fonte e controle de versão, usada principalmente para o desenvolvimento de software. Ele é baseado no Git, um sistema de controle de versão que permite aos desenvolvedores rastrear mudanças em seus projetos, colaborar com outras pessoas e gerenciar versões de arquivos.
+ 
+Aula 09
+ 
+git branch testing
+git log --oneline --decorate
+git checkout testing
+git checkout master
+ 
+Aula 10
+ 
+git branch
+git merge testing
+ 

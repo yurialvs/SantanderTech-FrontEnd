@@ -1,6 +1,0 @@
-Download Git
-https://git-scm.com/downloads
-
-GitHub Desktop
-https://desktop.github.com/download/
-
