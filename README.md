@@ -115,4 +115,10 @@
 #### Aula 01
 - Programação assícrona
 
+#### Aula 02
+- JSON
+
+#### Aula 03
+- API: introdução
+
 ---
