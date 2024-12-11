@@ -108,3 +108,11 @@
 - Javascript básico II: condicionais
 
 ---
+
+### Módulo 05
+- [Desenvolvimento Web básico com JavaScript]
+
+#### Aula 01
+- Programação assícrona
+
+---

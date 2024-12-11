@@ -69,7 +69,6 @@ if (valor) {
     console.log("Este valor é falsy.");
 }
 
-
 // Truthy
 
 let valor = "Olá, Mundo!";
