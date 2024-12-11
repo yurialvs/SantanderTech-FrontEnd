@@ -1,0 +1,3 @@
+Nome: Yuri
+Idade: 28
+Altura: 1.79
