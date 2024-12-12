@@ -121,4 +121,7 @@
 #### Aula 03
 - API: introdução
 
+#### Aula 04
+- Consumo de API
+
 ---
