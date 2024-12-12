@@ -1,7 +1,61 @@
-oque é api
+O que é API?
+API (Interface de Programação de Aplicações) é um conjunto de regras e protocolos que permite que diferentes softwares se comuniquem entre si. Ela define como os sistemas podem interagir, permitindo que um software acesse funcionalidades ou dados de outro, sem precisar entender sua implementação interna. Em resumo, uma API facilita a integração entre sistemas diferentes.
 
-tipos de api
+Existem vários tipos de APIs, cada uma com características específicas e finalidades diferentes. Os principais tipos incluem:
 
-free dictionary api
+API Pública (Open API):
+Disponível para qualquer desenvolvedor, sem restrições significativas.
+Exemplo: APIs de serviços como Google Maps ou Twitter, onde qualquer pessoa pode integrar seu aplicativo com esses serviços.
 
-pokéapi
+API Privada:
+Restrita ao uso dentro de uma organização ou para parceiros específicos.
+Geralmente usada para integrar diferentes sistemas internos de uma empresa.
+
+API de Parceiros:
+Oferecida a parceiros específicos, com acesso limitado e controlado.
+Exemplo: APIs de empresas que permitem a integração de serviços entre parceiros comerciais.
+
+API RESTful:
+Baseada no padrão REST (Representational State Transfer).
+Utiliza os métodos HTTP (GET, POST, PUT, DELETE) e é amplamente usada para integrar aplicações web.
+
+API SOAP:
+Baseada no protocolo SOAP (Simple Object Access Protocol).
+Usada principalmente em sistemas corporativos e requer comunicação estruturada por XML.
+
+API GraphQL:
+Desenvolvida pelo Facebook, permite que o cliente solicite exatamente os dados de que precisa, evitando o excesso de informações ou dados faltantes.
+
+API de Biblioteca (ou de Software):
+Fornece funções e métodos para facilitar a criação de programas em determinadas linguagens ou plataformas.
+Exemplo: APIs de bibliotecas gráficas ou de manipulação de dados em Python.
+
+Free Dictionary API
+É uma API que fornece acesso a definições de palavras, sinônimos, traduções e outras informações relacionadas ao vocabulário, sem custo. Normalmente, ela se conecta a um banco de dados de dicionário online e permite que desenvolvedores integrem recursos de consulta de palavras em seus aplicativos ou websites.
+Com essa API, é possível buscar a definição de palavras, verificar suas traduções para outros idiomas, obter exemplos de uso, sinônimos, antônimos, e até mesmo pronúncia, dependendo da API específica utilizada.
+(https://dictionaryapi.dev)
+
+POKÉAPI
+A PokéAPI é uma API gratuita e de código aberto que oferece acesso a dados sobre o mundo de Pokémon. Ela fornece informações detalhadas sobre os jogos da franquia Pokémon, incluindo dados sobre Pokémon, habilidades, tipos, movimentos, itens e muito mais.
+(https://pokeapi.co/)
+
+api.github (Users)
+É um endpoint da GitHub API que permite acessar informações públicas sobre um usuário do GitHub, substituindo (nome do usuário) pelo nome de usuário real na plataforma. (api.github.com/users/(nome do usuário))
+
+Public APIs - GitHub
+Repositório público no GitHub que mantém uma lista organizada de APIs públicas gratuitas e de código aberto.
+(www.github.com/public-apis/public-apis)
+
+Postman
+É uma das ferramentas mais conhecidas para testar APIs. Ele permite que os desenvolvedores enviem requisições HTTP e vejam as respostas, facilitando o processo de depuração e desenvolvimento de APIs.
+
+Insomnia
+É uma ferramenta de teste de APIs que se destaca pela simplicidade e eficiência. É conhecida por sua interface clean e fácil de usar, focada principalmente em testar APIs RESTful e GraphQL.
+
+Fetch API
+É uma interface moderna do JavaScript para realizar requisições HTTP assíncronas em aplicativos web. Ela foi introduzida para substituir a antiga XMLHttpRequest e é mais fácil de usar e mais poderosa.
+
+API dentro do browser
+Notification.requestPermission() é uma API do navegador que permite que uma página web solicite permissão para enviar notificações push para o usuário. As notificações são mensagens enviadas para o dispositivo do usuário, mesmo quando o usuário não está com o site aberto.
+
+Document.head é uma propriedade do objeto document no JavaScript que retorna o elemento <head> do documento HTML. 
