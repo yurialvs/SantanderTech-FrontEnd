@@ -124,4 +124,7 @@
 #### Aula 04
 - Consumo de API
 
+#### Aula 05
+- TypeScript I
+
 ---

@@ -1,0 +1,22 @@
+{
+  "name": "santandertech-frontend",
+  "version": "1.0.0",
+  "description": "Primeiro projeto no node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurialvs/SantanderTech-FrontEnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurialvs/SantanderTech-FrontEnd/issues"
+  },
+  "homepage": "https://github.com/yurialvs/SantanderTech-FrontEnd#readme",
+  "dependencies": {
+    "typescript": "^5.7.2"
+  }
+}

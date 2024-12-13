@@ -1,0 +1,18 @@
+Configuração do TypeScript
+
+1. inicializar um projeto Node.js
+npm init
+
+2. Instalar o TypeScript
+    2.1. Instalação global: 
+        npm install -g typescript
+    2.2. Instalação local (dentro do projeto):
+        npm install typescript
+
+3. Utilizar o TypeScript instalado para transpilar o nosso código (TS para JS)
+    npx tsc ./modulo05/aula05/index.ts --watch
+
+4. Inicializa todas as configurações do TypeScript no projeto:
+    npx tsc --init
+
+
