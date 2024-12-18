@@ -89,9 +89,9 @@ const numeroEscolhido = chooseNumber(10, 20, 'lower');
 
 console.log('Numero Escolhido: ', numeroEscolhido);
 
-function somar(num1: number, num2: number): number {
-    return num1 + num2
-}
+// function somar(num1: number, num2: number): number {
+//     return num1 + num2
+// }
 
 // Utillity Types
 

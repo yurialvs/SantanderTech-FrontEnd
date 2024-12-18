@@ -16,7 +16,7 @@
     "url": "https://github.com/yurialvs/SantanderTech-FrontEnd/issues"
   },
   "homepage": "https://github.com/yurialvs/SantanderTech-FrontEnd#readme",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^5.7.2"
   }
 }

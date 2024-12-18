@@ -127,4 +127,10 @@
 #### Aula 05
 - TypeScript I
 
+#### Aula 06
+- TypeScript II
+
+#### Aula 07
+- Programação Orientada a Objetos
+
 ---
