@@ -30,4 +30,7 @@ contadorElemento.style.border = '1px solid #AAAA';
 contadorElemento.style.width = '150px';
 
 // Manipular as classes 
-console.log(botaoDiminuir.classList)
+console.log(botaoDiminuir.classList);
+
+botaoAumentar.classList.add('btn');
+botaoDiminuir.classList.remove('btn');

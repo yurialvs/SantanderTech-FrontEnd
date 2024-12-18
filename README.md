@@ -136,4 +136,8 @@
 #### Aula 08
 - Browser API I
 
+#### Projeto JS: Lista de Tarefas
+
+#### Projeto JS: Condições do Tempo
+
 ---
