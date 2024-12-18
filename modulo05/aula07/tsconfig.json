@@ -10,5 +10,5 @@
     "noEmitOnError": true
   },
   "include": ["./"],  // Inclua seus arquivos TypeScript aqui
-  "exclude": ["node_modules"]  // Exclua as dependências externas
+  "exclude": ["modulo05/aula07/node_modules"]  // Exclua as dependências externas
 }

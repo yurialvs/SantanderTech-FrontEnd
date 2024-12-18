@@ -133,4 +133,7 @@
 #### Aula 07
 - Programação Orientada a Objetos
 
+#### Aula 08
+- Browser API I
+
 ---
