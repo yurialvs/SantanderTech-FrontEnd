@@ -147,4 +147,13 @@
 #### Aula 01
 - Introdução ao ReactJS
 
+#### Aula 02
+- React Legado I - Componentização
+
+#### Aula 03
+- React LegadoII - Props e Estados
+
+#### Aula 04
+- React Legado III - Ciclo de vida
+
 ---
