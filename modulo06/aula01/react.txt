@@ -1,0 +1,3 @@
+Clique com o botão direito na pasta desejada do projeto, e clique em "Open Git Bash"
+npx create-react-app primeiro-projeto
+cd my-app npm start
