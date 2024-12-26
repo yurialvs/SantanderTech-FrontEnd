@@ -1,4 +1,5 @@
 import React from 'react';
+import logoImg from './assets/images/logo.png';
 
 // Componente em classe é uma classe que herda a classe Component do React,
 // e retorna HTML dentro do método render.
@@ -11,7 +12,7 @@ class App extends React.Component {
       <header>
         <nav>
           <div className='nav-brand'>
-            <img src="" alt="" />
+            <img src={logoImg} alt="" />
             <h1>Space Flight News</h1>
           </div>
 
